@@ -4,4 +4,4 @@ pandas
 scikit-learn
 googlemaps
 requests
-BeautifulSoup
+BeautifulSoup4
