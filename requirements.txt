@@ -1,7 +1,7 @@
-pip install -U Flask
+pip install Flask
 pip install psycopg2
 pip install pandas
-pip install -U scikit-learn
+pip install scikit-learn
 pip install googlemaps
 pip install requests
 pip install BeautifulSoup
