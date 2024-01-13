@@ -9,7 +9,8 @@ app = Flask(__name__)
 # the associated function.
 @app.route('/',methods=['GET', 'POST'])
 def hello_world():
-    data  = request.get_json()
+    data ={'lat':'23.34', 'lng':'85.31', 'schoolName':'Delhi Public School (DPS) Ranchi'}
+    #data  = request.get_json()
     name = data['schoolName']
     del data['schoolName']
     x = data.values()
