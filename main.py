@@ -1,9 +1,10 @@
 from flask import Flask, redirect, url_for, request, jsonify
 import json
 import route
+from flask_cors import CORS
 
 app = Flask(__name__)
- 
+CORS(app)
 # The route() function of the Flask class is a decorator, 
 # which tells the application which URL should call 
 # the associated function.
