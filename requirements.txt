@@ -1,0 +1,8 @@
+flask
+psycopg2-binary==2.9.9
+pandas
+scikit-learn
+googlemaps
+requests
+BeautifulSoup4
+gunicorn==20.1.0
