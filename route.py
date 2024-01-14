@@ -20,7 +20,6 @@ port=url.port
 api_key = os.environ["API_KEY"]
 
 def run(coords,name):
-    conn = psycopg2.connect("dbname=Transport-easy user=postgres password=Mayuyu@18")
     curr = conn.cursor()
     curr.execute('SELECT * FROM busroutes WHERE route_name=%s', (name,))
     x = curr.fetchall()
